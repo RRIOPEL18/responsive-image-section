@@ -118,4 +118,17 @@ a:hover {
     font-size: 130%;
   }
 
+  div{
+    margin-left: 10.5em;
+    max-width: 470px;
+    margin-top: 2rem;
+  }
+
+  img{
+    max-width: 520px;
+  }
+
+  a{
+    margin: 0;
+  }
 }
