@@ -24,6 +24,7 @@ div {
 body {
   margin: 0;
   background-color: #e2e2e2;
+  text-align: left;
 }
 
 h1 {
@@ -58,8 +59,8 @@ a:hover {
 @media only screen and (min-width: 25em) {
 
   html{
-    font-size: 110%;
-    line-height: 1.4;
+    font-size: 100%;
+    line-height: 1.3;
   }
 
 @media only screen and (min-width: 38em) {
@@ -105,4 +106,16 @@ a:hover {
     width: 55%;
     max-width: 480px;
   }
+
+  a{
+    padding: .7em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html{
+    font-size: 130%;
+  }
+
 }
